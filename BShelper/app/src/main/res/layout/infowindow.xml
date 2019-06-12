@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup"
+    android:paddingTop="15dp"
+    android:paddingBottom="30dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/tv_bsname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="基站名称：" />
+
+    <TextView
+        android:id="@+id/tv_longtude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="经度：" />
+
+    <TextView
+        android:id="@+id/tv_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="维度：" />
+    <Button
+        android:id="@+id/bt_gotohere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去这里"/>
+    <TextView
+        android:id="@+id/tv_bsaddres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地址：" />
+
+
+</LinearLayout>
